@@ -21,6 +21,7 @@ table{
 }
 nav li .mydul{
      display: none;
+     position:absolute;
 }
 nav li:hover .mydul{
      display: block;
