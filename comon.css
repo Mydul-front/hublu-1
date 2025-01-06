@@ -1,17 +1,5 @@
-nav > ul{
-     display: flex;
+@import url('./nav.css');
 
-}
-nav ul li{
-     list-style: none;
-     margin-right:20px;
-}
-nav li a{
-     text-decoration: none;
-}
-nav li:hover{
-     background-color: aqua;
-}
 td{
      border:2px solid yellow;
      padding:10px 30px;
@@ -19,10 +7,12 @@ td{
 table{
      border-collapse: collapse;
 }
-nav li .mydul{
+.mydul{
      display: none;
      position:absolute;
+     background-color:black;
+     color:white;
 }
-nav li:hover .mydul{
+.dropdown:hover .mydul{
      display: block;
 }
