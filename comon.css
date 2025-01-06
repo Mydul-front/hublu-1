@@ -1,0 +1,27 @@
+nav > ul{
+     display: flex;
+
+}
+nav ul li{
+     list-style: none;
+     margin-right:20px;
+}
+nav li a{
+     text-decoration: none;
+}
+nav li:hover{
+     background-color: aqua;
+}
+td{
+     border:2px solid yellow;
+     padding:10px 30px;
+}
+table{
+     border-collapse: collapse;
+}
+nav li .mydul{
+     display: none;
+}
+nav li:hover .mydul{
+     display: block;
+}
